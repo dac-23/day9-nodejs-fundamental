@@ -1,4 +1,4 @@
-export function pattern() {
+export default function pattern() {
   console.log("*");
   console.log("**");
   console.log("***");

@@ -1,4 +1,4 @@
-import { pattern } from "./pattern.js";
+import pattern from "./pattern.js";
 import { starPattern } from "./pattern.js";
 
 function main() {
