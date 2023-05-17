@@ -11,4 +11,6 @@ function starPattern() {
   console.log("****");
 }
 
-export { pattern, starPattern };
+// export {pattern, starPattern};
+export { pattern };
+export { starPattern };
