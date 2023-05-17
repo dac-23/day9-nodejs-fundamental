@@ -1,12 +1,14 @@
-import { readFileSync } from "node:fs";
+async function calculate(n1, n2) {
+  // this task is going to take 10 min
+  // ...very complex logic.
+  // API CALL, DB CALL
+  return n1 + n2;
+}
 
 function main() {
-  console.log("Hello World");
-
-  let filePath = "/Users/research/Desktop/day9/package.json";
-  let fileData = readFileSync(filePath, { encoding: "utf-8" });
-
-  console.log(fileData);
+  console.log("ASYNC TASK HANDLING");
+  let result = calculate(10, 20);
+  console.log("Output=", result);
 }
 
 main();
