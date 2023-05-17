@@ -1,15 +1,12 @@
-import pattern from "./pattern.js";
-import { addition } from "./calc.js";
+import { readFileSync } from "node:fs";
 
 function main() {
   console.log("Hello World");
 
-  // calling pattern module
-  pattern();
+  let filePath = "/Users/research/Desktop/day9/package.json";
+  let fileData = readFileSync(filePath, { encoding: "utf-8" });
 
-  // calling calc module
-  let sum = addition(10, 20);
-  console.log("SUM=", sum);
+  console.log(fileData);
 }
 
 main();
