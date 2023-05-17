@@ -1,16 +1,12 @@
-function pattern() {
+export function pattern() {
   console.log("*");
   console.log("**");
   console.log("***");
 }
 
-function starPattern() {
+export function starPattern() {
   console.log("*");
   console.log("**");
   console.log("***");
   console.log("****");
 }
-
-// export {pattern, starPattern};
-export { pattern };
-export { starPattern };
